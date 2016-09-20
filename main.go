@@ -21,7 +21,7 @@ func main() {
 	path := flag.String("path", ".", "path to start from")
 	filepattern := flag.String("filepattern", "*", "file name pattern")
 	flag.Usage = func() {
-		fmt.Printf("%s recursively almost-greps until timeout. pattern is checked byte for byte. Original: bketelsen.\n", os.Args[0])
+		fmt.Printf("%s recursively almost-greps until timeout. pattern is checked byte for byte. Original: bketelsen's gogrep.\n", os.Args[0])
 		fmt.Printf("Usage: %v [flags] pattern\n", os.Args[0])
 		flag.PrintDefaults()
 	}
