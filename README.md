@@ -1,7 +1,11 @@
-fgergo modified:
-goal: rgrep with timeout
+original: gogrep https://www.oreilly.com/learning/run-strikingly-fast-parallel-file-searches-in-go-with-sync-errgroup
 
-original:
-# gogrep
+fgergo modified to have ~rgrep with timeout
 
-[Article](https://www.oreilly.com/learning/run-strikingly-fast-parallel-file-searches-in-go-with-sync-errgroup)
+# Install
+
+go get github.com/fgergo/rtgrep
+
+# Run
+
+rtgrep
