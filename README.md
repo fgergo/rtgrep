@@ -4,7 +4,7 @@ fgergo modified to have ~rgrep with timeout
 
 # Install
 
-go get github.com/fgergo/rtgrep
+go install github.com/fgergo/rtgrep@latest
 
 # Run
 
